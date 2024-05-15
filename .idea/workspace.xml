@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50688b5-89fd-491c-9d81-6fc59c6c3a32" name="Changes" comment="Primeiro comit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/exercicio_1.java" afterDir="false" />
+    <list default="true" id="d50688b5-89fd-491c-9d81-6fc59c6c3a32" name="Changes" comment="finaliza os testes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/exercicio_1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -32,7 +28,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2fmJhIfVjDDgK0D1OVfLGT37dQ4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,20 +39,38 @@
   "keyToString": {
     "Application.Main.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.br.com.borges.GuessTheNumberGame.executor": "Run",
     "Application.exercicio_1.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GuessTheNumberGameTest.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.shouldReturnEqual.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.shouldReturnTooHigh.executor": "Run",
+    "JUnit.GuessTheNumberGameTest.shouldReturnTooLow.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/borge/Documents/Laboratoria/Projeto_05/guess-the-number/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\borge\Documents\Laboratoria\Projeto_05\guess-the-number\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GuessTheNumberGameTest">
+    <configuration name="br.com.borges.GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.borges.GuessTheNumberGame" />
       <module name="guess-the-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="br.com.borges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,37 +78,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+    <configuration name="GuessTheNumberGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guess-the-number" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercicio_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.exercicio_1" />
+    <configuration name="GuessTheNumberGameTest.shouldReturnEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guess-the-number" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="shouldReturnEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.shouldReturnTooHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="shouldReturnTooHigh" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.shouldReturnTooLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="shouldReturnTooLow" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main.Main" />
-        <item itemvalue="Application.exercicio_1" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.shouldReturnEqual" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.shouldReturnTooLow" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.shouldReturnTooHigh" />
+        <item itemvalue="Application.br.com.borges.GuessTheNumberGame" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +144,55 @@
       <option name="project" value="LOCAL" />
       <updated>1715173321462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo commit">
+      <option name="closed" value="true" />
+      <created>1715173977378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715173977379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="terceiro commit teste">
+      <option name="closed" value="true" />
+      <created>1715276801474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715276801474</updated>
+    </task>
+    <task id="LOCAL-00004" summary="altera o gitignore">
+      <option name="closed" value="true" />
+      <created>1715277426793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715277426793</updated>
+    </task>
+    <task id="LOCAL-00005" summary="altera o gitignore novamente">
+      <option name="closed" value="true" />
+      <created>1715277596319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715277596319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finaliza o jogo guess the number">
+      <option name="closed" value="true" />
+      <created>1715799924542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715799924542</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finaliza os testes">
+      <option name="closed" value="true" />
+      <created>1715799954388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715799954388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +208,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro comit" />
+    <MESSAGE value="Segundo commit" />
+    <MESSAGE value="terceiro commit teste" />
+    <MESSAGE value="altera o gitignore" />
+    <MESSAGE value="altera o gitignore novamente" />
+    <MESSAGE value="finaliza o jogo guess the number" />
+    <MESSAGE value="finaliza os testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finaliza os testes" />
   </component>
 </project>
