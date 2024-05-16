@@ -5,8 +5,8 @@ public class HumanPlayer extends Player {
     private Scanner scanner;
 
     public HumanPlayer(String name) {
-        super(name);
-        this.scanner = new Scanner(System.in);
+        super(name);//Chama o construtor da classe Player passando o nome do jogador como argumento, para inicializar a variável name.
+        this.scanner = new Scanner(System.in);//inicializa a variavel scanner como uma nova instancia
     }
 
     @Override

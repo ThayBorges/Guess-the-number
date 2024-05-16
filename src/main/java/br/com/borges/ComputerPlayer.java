@@ -10,10 +10,10 @@ class ComputerPlayer extends Player {
         this.random = new Random();
     }
 
-    @Override
+    @Override //Indica que o método makeGuess() sobrescreve o método abstrato da classe Player
     public int makeGuess() {
-        int guess = random.nextInt(100) + 1;
+        int guess = random.nextInt(101);
         guesses.add(guess);
-        return guess;
+        return guess; //retorna o palpite gerado pelo computador
     }
 }

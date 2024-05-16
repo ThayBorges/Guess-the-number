@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class GuessTheNumberGame {
     private static final Random random = new Random();
-    static int targetNumber;
+    static int targetNumber; //Como é estática, todos os objetos da classe compartilham o mesmo valor de targetNumber.
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o seu nome: ");
         String playerName = scanner.nextLine();
 
-        startNewGame();
-        Player player1 = new HumanPlayer(playerName);
-        Player player2 = new ComputerPlayer("Computador");
+        startNewGame(); //Chama o método startNewGame() para iniciar um novo jogo.
+        Player player1 = new HumanPlayer(playerName); //cria uma instancia da classe HumanPlayer
+        Player player2 = new ComputerPlayer("Computador"); //cria ums instancia da classe ComputerPlayer
 
-        while (true) {
+        while (true) { //cria um loop infinito
             System.out.println("É a vez de " + player1.getName() + ".");
             int guess1 = player1.makeGuess();
             player1.addGuess(guess1);
@@ -28,7 +28,8 @@ public class GuessTheNumberGame {
             System.out.println("É a vez do " + player2.getName() + ".");
             int guess2 = player2.makeGuess();
             player2.addGuess(guess2);
-            System.out.println(player1.getName() + " adivinhou: " + guess2);
+            System.out.println(player2.getName() + " adivinhou: " + guess2);
+
             if (checkGuess(player2)) {
                 break;
             }
@@ -36,7 +37,7 @@ public class GuessTheNumberGame {
     }
 
     private static void startNewGame() {
-        targetNumber = random.nextInt(100) + 1;
+        targetNumber = random.nextInt(101);
         System.out.println("Um novo jogo começou! Adivinhe um número entre 1 e 100.");
     }
 
@@ -51,7 +52,7 @@ public class GuessTheNumberGame {
             return true;
         }
 
-        return false;
+        return false; //O método retorna true se o jogador acertar o número alvo, caso contrário, retorna false.
     }
 
     public static void setTargetNumber(int number) {
@@ -59,11 +60,4 @@ public class GuessTheNumberGame {
     }
 }
 
-
-    //private static final int targetNumber = new Random().nextInt(101);
-    //public static void main (String[] args) {
-        //System.out.println(targetNumber);
-
-
-    //}
 
